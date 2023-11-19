@@ -1,5 +1,6 @@
 # Web Scraping Amiibo
 
+![Banner de Varios Amiibos](./media/banner.png)
 ## Descripción (description)
 
 Web Scraping 🚀 para extraer automáticamente la lista de personajes amiibo ♥️ de Nintendo🎮.
@@ -46,6 +47,11 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 ```
 
+### Paso 4. Ejecutar programa principal
+
+```bash
+python src/main.py
+```
 ## Contribuciones (contributions)
 
 ### Convención para comentarios
