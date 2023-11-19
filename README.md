@@ -4,7 +4,6 @@
 
 Web Scraping 🚀 para extraer automáticamente la lista de personajes amiibo ♥️ de Nintendo🎮.
 
-
 ## Instalación (install)
 
 ### Paso 1. Crear entorno virtual.

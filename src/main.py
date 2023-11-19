@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from filters import filter_characters
+from utils import writer_character
 
 if __name__ == '__main__':
     response = requests.get('https://www.nintendo.com/es-mx/amiibo/line-up/')
@@ -21,6 +22,7 @@ if __name__ == '__main__':
     characters = filter_characters(elements)
     print('PERSONAJES')
     for character in characters:
+        writer_character(character)
         print(character.get('name'))
         print(character.get('serie'))
         print(character.get('available_date'))
